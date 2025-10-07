@@ -1,0 +1,29 @@
+@import url('./global.css');/* importaçao css */
+header{
+    display:flex;/* config. dos botoes  */
+    justify-content: space-around;/* cuida da hotizontal */
+    align-items: center; /* cuida da vertical */
+    padding: 20px 0px; /* a distancia entre a borda e conteudo */
+}
+
+.nav-header ul{
+    display: flex;/* confg dos botoes */
+    gap: 30px;/* espaçamento dos botoes  */
+    list-style: none;/* none tira listra */
+}
+
+.nav-header ul li a{
+    color: var(--color-secondary-dark);/* cor da fonte */
+    text-decoration:none;/* cor do texto */
+    font-family: --font-body;/* fote do texto  */
+
+}
+
+.btn-header{
+    background-color: var(--color-primary-orange);/* cor do botao */
+    padding: 12px 30px;/* tamanho do botao */
+    border-radius: 15px 3px;/*bordas */
+    color: var(--color-secondary-white);/* cor botao  */
+    text-decoration: var(--font-tittle);/* fote do texto */
+    font-family: var(--font-button-size);/* tamanho do botao */
+}
