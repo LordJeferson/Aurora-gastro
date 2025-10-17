@@ -1,59 +1,80 @@
-@import url('./global.css');/* importaçao css */
-header{
-    display:flex;/* config. dos botoes  */
-    justify-content: space-around;/* cuida da hotizontal */
-    align-items: center; /* cuida da vertical */
-    padding: 20px 0px; /* a distancia entre a borda e conteudo */
+@import url('./global.css');
+
+/* importaçao css */
+header {
+    display: flex;
+    /* config. dos botoes  */
+    justify-content: space-around;
+    /* cuida da hotizontal */
+    align-items: center;
+    /* cuida da vertical */
+    padding: 20px 0px;
+    /* a distancia entre a borda e conteudo */
 }
 
-.nav-header ul{
-    display: flex;/* confg dos botoes */
-    gap: 30px;/* espaçamento dos botoes  */
-    list-style: none;/* none tira listra */
+.nav-header ul {
+    display: flex;
+    /* confg dos botoes */
+    gap: 30px;
+    /* espaçamento dos botoes  */
+    list-style: none;
+    /* none tira listra */
 }
 
-.nav-header ul li a{
-    color: var(--color-secondary-dark);/* cor da fonte */
-    text-decoration:none;/* cor do texto */
-    font-family: --font-body;/* fote do texto  */
+.nav-header ul li a {
+    color: var(--color-secondary-dark);
+    /* cor da fonte */
+    text-decoration: none;
+    /* cor do texto */
+    font-family: --font-body;
+    /* fote do texto  */
 
 }
 
-.btn-header{
-    background-color: var(--color-primary-orange);/* cor do botao */
-    padding: 12px 30px;/* tamanho do botao */
-    border-radius: 15px 3px;/*bordas */
-    color: var(--color-secondary-white);/* cor botao  */
-    text-decoration: var(--font-tittle);/* fote do texto */
-    font-family: var(--font-button-size);/* tamanho do botao */
+.btn-header {
+    background-color: var(--color-primary-orange);
+    /* cor do botao */
+    padding: 12px 30px;
+    /* tamanho do botao */
+    border-radius: 15px 3px;
+    /*bordas */
+    color: var(--color-secondary-white);
+    /* cor botao  */
+    text-decoration: var(--font-tittle);
+    /* fote do texto */
+    font-family: var(--font-button-size);
+    /* tamanho do botao */
 }
 
-main{
- display: flex;
- justify-content: center;
- align-items: center;
- gap: 80px;
- padding: 60px 0px;
- 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 60px 0px;
+
 }
-.content-main{
+
+.content-main {
     display: flex;
     flex-direction: column;
     gap: 20px;
 
 }
-h1{
-    font-size:var(--font-headline-h1-size);
+
+h1 {
+    font-size: var(--font-headline-h1-size);
     font-family: var(--font-title);
     width: 562px;
 
-} 
-
-.higlighted-word{
-    color: var(--color-primary-orange);
-    
 }
-.content-main p{
+
+.higlighted-word {
+    color: var(--color-primary-orange);
+
+}
+
+.content-main p {
     font-size: var(--font-body);
     color: var(-color-secondary-L_gray);
     font-family: var(--font-body);
@@ -62,28 +83,29 @@ h1{
 
 }
 
-.container-btn-main{
-  display: flex;
-  gap: 20px;
-  
+.container-btn-main {
+    display: flex;
+    gap: 20px;
+
 }
 
- .section-differences{
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   background-color: var(--color-primary-orange-10);
-   padding: 60px 0px;
-   gap: 40px;
+.section-differences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--color-primary-orange-10);
+    padding: 60px 0px;
+    gap: 40px;
 
- }
- .Diferenciais-cards-container{
+}
+
+.Diferenciais-cards-container {
     display: flex;
     gap: 70px;
- }
- 
+}
 
- .Diferenciais-cards{
+
+.Diferenciais-cards {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -94,51 +116,54 @@ h1{
     text-align: center;
 }
 
-.Diferenciais-cards h3{
+.Diferenciais-cards h3 {
     font-family: var(--font-title);
     font-size: var(--font-headline-h3-size);
-    width: 181px; 
-    
-}
-.Diferenciais-cards p{
-  width: 227px;
-  font-family: var(--font-body);
-  color: var(--color-secondary-L_gray);
-  line-height: 30px;
-  
+    width: 181px;
+
 }
 
-.section-chef{
+.Diferenciais-cards p {
+    width: 227px;
+    font-family: var(--font-body);
+    color: var(--color-secondary-L_gray);
+    line-height: 30px;
+
+}
+
+.section-chef {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 60px;
     padding: 60px 0px;
-    
-}
-
-.content-chefe{
- display: flex;
- flex-direction: column;
- gap: 25px;
 
 }
-.content-chefe h2{
 
-    width:433px ;
+.content-chefe {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.content-chefe h2 {
+
+    width: 433px;
     line-height: 60px;
 
 }
-.content-chefe p{
+
+.content-chefe p {
     font-family: var(--font-body);
     color: var(--color-secondary-L_gray);
     width: 503px;
     line-height: 30px;
-    
+
 }
 
 
-.section-featured-dishes{
+.section-featured-dishes {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -147,14 +172,14 @@ h1{
     padding: 60px 0px;
 }
 
-.container-cards-dishes{
+.container-cards-dishes {
     display: flex;
     justify-content: center;
     gap: 25px;
     padding-top: 101px;
 }
 
-.card-dishes{    
+.card-dishes {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -165,54 +190,55 @@ h1{
     border-radius: 20px 5px;
     text-align: center;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.09);
-    padding: 123px 15px 45px 15px;  
-    position: relative;  
+    padding: 123px 15px 45px 15px;
+    position: relative;
 }
 
-.card-dishes img{
+.card-dishes img {
     position: absolute;
     top: -101px;
 }
 
-.card-dishes h3{
+.card-dishes h3 {
     font-size: var(--font-headline-h3-size);
     font-family: var(--font-title);
     width: 174px;
-   
+
 }
 
-.card-dishes p{
+.card-dishes p {
     font-family: var(--font-body);
     line-height: 30px;
     color: var(--color-secondary-l-gray);
     width: 271px;
 }
-.section-our-environments{
+
+.section-our-environments {
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center;
     gap: 25px;
     padding: 60px;
 }
 
-.container-environments{
-    display: flex;        
+.container-environments {
+    display: flex;
     gap: 20px;
 }
 
-.container-environments-left{
+.container-environments-left {
     display: flex;
     flex-direction: column;
     gap: 35px;
 }
 
-.container-environments-left div{
+.container-environments-left div {
     display: flex;
     gap: 29px;
 }
 
 
-.section-our-reviews{
+.section-our-reviews {
     display: flex;
     background-color: var(--color-primary-orange-10);
     flex-direction: column;
@@ -221,69 +247,75 @@ h1{
     align-items: center;
 }
 
-.container-reviews{
+.container-reviews {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
 }
-.card-reviews{
- display: flex;
- flex-direction: column;
- gap: 10px;
- background-color: var(--color-secondary-white);
- border-radius:40px 8px;
- padding: 25px 20px ;
- box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25 );
- 
+
+.card-reviews {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--color-secondary-white);
+    border-radius: 40px 8px;
+    padding: 25px 20px;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
+
 }
-.client-review{   
-  display: flex;
-  align-items: center;
-  gap: 15px;
-  
+
+.client-review {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
 }
-.client-name{
+
+.client-name {
     display: flex;
     align-items: center;
     flex-direction: column;
     gap: 5px;
 
 }
-.client-name h2{
-   
+
+.client-name h2 {
+
     font-family: var(--font-title);
-    font-size:var(--font-headline-h4-size);
+    font-size: var(--font-headline-h4-size);
 
 }
-.card-reviews p{
+
+.card-reviews p {
     font-family: var(--font-body);
     width: 358px;
     color: var(--color-secondary-dark);
-    
+
 
 }
-.section-reservation{
+
+.section-reservation {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     gap: 25px;
     padding: 60px 0px;
 
 }
 
-.container-reservation{
+.container-reservation {
     display: flex;
     justify-content: center;
-     align-items: center;   
+    align-items: center;
     gap: 100px;
 
 }
 
-form{
+form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    
+
 }
 
 .box-input {
@@ -303,55 +335,59 @@ form{
     border-radius: 5px;
 }
 
-.container-box-input{
+.container-box-input {
     display: flex;
     gap: 10px;
 }
 
-.container-box-input input{
+.container-box-input input {
     width: 220px;
 }
 
-textarea{
+textarea {
     border: 1px solid #5C6574;
     height: 100px;
     width: 450px;
     border-radius: 5px;
 }
 
-form button{
+form button {
     font-family: var(--font-title);
     align-self: flex-start;
     cursor: pointer;
 
 }
 
-.Section-maps{
+.Section-maps {
     display: flex;
     justify-content: center;
     background-color: var(--color-primary-orange-10);
     padding: 60px 0px;
 
 }
-.Section-maps iframe{
+
+.Section-maps iframe {
     width: 80%;
     height: 60vh;
-    
-}
-footer{
-display: flex;
-justify-content: space-around;
-align-items: center;
-padding: 60px 0px;
 
 }
-.footer-copyright{
-display: flex;
-flex-direction: column;
-gap: 25px;
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0px;
 
 }
-.Copyright{
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+}
+
+.Copyright {
 
     display: flex;
     flex-direction: column;
@@ -360,13 +396,14 @@ gap: 25px;
     font-size: var(--font-body-size);
 
 }
-.footer-socials{
+
+.footer-socials {
     display: flex;
     gap: 15px;
 
 }
 
-.social-icons{
+.social-icons {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -375,35 +412,221 @@ gap: 25px;
     border-radius: 50%;
     transition: 0.5s;
 }
-.social-icons:hover{
-   background-color: var(--color-primary-orange);
-   transform: translateY(-10px);
+
+.social-icons:hover {
+    background-color: var(--color-primary-orange);
+    transform: translateY(-10px);
 }
 
-.container-footer-navigation{
+.container-footer-navigation {
     display: flex;
     gap: 80px;
 
 }
-.footer-navigation{
+
+.footer-navigation {
     display: flex;
     flex-direction: column;
     gap: 10px;
 
 }
-.footer-navigation h2{
-  font-family: var(--font-title);
-  font-size: var(--font-headline-h3-size);
-   
+
+.footer-navigation h2 {
+    font-family: var(--font-title);
+    font-size: var(--font-headline-h3-size);
+
 }
-.footer-navigation ul{
+
+.footer-navigation ul {
     display: flex;
     flex-direction: column;
     gap: 10px;
     list-style: none;
 }
-.footer-navigation ul li a{
+
+.footer-navigation ul li a {
     text-decoration: none;
     color: var(--color-secondary-dark);
     font-family: var(--font-body);
+}
+
+/* 1024px -->nootboock */
+/* 780 --> tablet  */
+/* 490px -->celular */
+
+@media(max-width: 1024px) {
+
+    main {
+        gap: 20px;
+    }
+
+    main h1 {
+        font-size: var(--font-headline-h2-size);
+        width: 480px;
+    }
+
+    .content-main p {
+        width: 480px;
+    }
+
+    main img {
+        width: 400px;
+    }
+
+    .conteiner-illustration-main {
+        display: flex;
+        justify-content: center;
+    }
+    .Diferenciais-cards-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-chef{
+        gap: 30px;
+    }
+    .section-chef img{
+        width: 450px;
+    }
+    .container-cards-dishes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 120px;
+    }
+    .container-environments{
+        flex-direction: column;
+    }
+    .container-reviews{
+        grid-template-columns: 1fr 1fr;
+    }
+    .container-reservation img{
+        display: none;
+    }
+    
+}
+@media(max-width: 884px) {
+
+
+    main h1 {
+        font-size:44px;
+        width: 450px;
+    }
+
+    .content-main p {
+        width: 450px;
+    }
+
+    main img {
+        width: 380px;
+    }
+
+    .conteiner-illustration-main {
+        display: flex;
+        justify-content: center;
+    }
+    .Diferenciais-cards-container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .section-chef{
+        gap: 30px;
+    }
+    .section-chef img{
+        width: 450px;
+    }
+    .container-cards-dishes{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 120px;
+    }
+    .container-environments{
+        flex-direction: column;
+    }
+    .container-reviews{
+        grid-template-columns: 1fr 1fr;
+    }
+    .container-reservation img{
+        display: none;
+    }
+    
+
+}
+
+@media(max-width: 480px) {
+    .conteiner-header{
+        display: flex;
+        flex-direction: column;
+
+    }
+      main {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 0 16px;
+    }
+
+    main h1 {
+        font-size:32px;
+        width: 100%;
+        text-align:center ;
+    }
+
+    .content-main p {
+        width: 400px;
+        font-size: 16px;
+    }
+
+    main img {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+    .conteiner-header{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteiner-illustration-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .Diferenciais-cards-container{
+        display: grid;
+        grid-template-columns: 1fr ;
+        gap: 16px;
+    }
+
+    .section-chef{
+     display: flex;
+     flex-direction: column;
+     gap: 20px;
+     align-items: center;
+    }
+    
+    .section-chef img{
+        width: 100%;
+        max-width: 100%;
+        align-items: center;
+    }
+    .container-cards-dishes{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+    .container-environments{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .container-reviews{
+       display: grid;
+        grid-template-columns: 1fr ;
+        gap: 16px;
+    }
+    .container-reservation img{
+        display: none;
+    }
+
 }
